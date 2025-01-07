@@ -1,0 +1,4 @@
+--->Update Status 
+curl -L   -H "Accept: application/vnd.github+json"   -H "Authorization: Bearer "   -H "X-GitHub-Api-Version: 2022-11-28" 'https://api.github.com/repos/srinuneehaal/obd-sb-ms/commits/17def25b1d490b7713164f7c3f16687fc6165d85/statuses'
+curl -L  -X POST -H "Accept: application/vnd.github+json"   -H "Authorization: Bearer "   -H "X-GitHub-Api-Version: 2022-11-28" 'https://api.github.com/repos/srinuneehaal/obd-sb-ms/statuses/17def25b1d490b7713164f7c3f16687fc6165d85' -d '{"state":"success","target_url":"https://example.com/build/status","description":"The build is in success!","context":"continuous-integration/jenkins"}'
+curl -L   -H "Accept: application/vnd.github+json"   -H "Authorization: Bearer "   -H "X-GitHub-Api-Version: 2022-11-28" 'https://api.github.com/repos/srinuneehaal/obd-sb-ms/commits/17def25b1d490b7713164f7c3f16687fc6165d85/statuses'
